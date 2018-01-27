@@ -2,228 +2,92 @@
 <html>
 <head>
 	<title>Mayank Kulkarni | Portfolio | Projects</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/navigation.css">
-<link rel="stylesheet" href="skills_buttons.css">
-
-<link rel="icon" href="images/icon.png">
-<link href='https://fonts.googleapis.com/css?family=Catamaran' rel='stylesheet'>
-<link href='https://fonts.googleapis.com/css?family=Archivo' rel='stylesheet'>
-<style>
-
-
-	
-body, html {
-    height: 100%;
-        font:<size>px/em/cm;
-        font-family: 'Archivo';
-
-}
-
-.about{
-
-	
-background-image: url('images/android2.jpg');
-height: 800px;
-	
-font-family: 'Archivo';
-    
- background-attachment: fixed;
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-
-}
-
-.parallax1 {
-    /* The image used */
-    background-image: url('images/my_image.jpg');
-     
-      font-size: 2.2vw;
-        color: white;
-font-family: 'Archivo';
-
-    /* Full height */
-    height: 100%; 
-     
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.skills {
-    /* The image used */
-    background-image: url('images/skills2.png');
-     
-font-family: 'Archivo';
-
-        color: white;
-    /* Full height */
-    height: 800PX; 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.profile{
-
-
-	border-radius: 50%;
-}
-.content{
-
-	        font-size: 2.2vw;
-	        color: white;
-font-family: 'Catamaran';
-    border: 2px solid white;
-    padding: 25px;
-    margin:25px;
-}
-
-.heading {
-font-family: 'Archivo';
-  font-size: 4vw;
-  color: white;
-
-}
-.skills_heading{
-
-  font-family: 'Archivo';
-  font-size: 2vw;
-  color: white;
-}
-.skills_name{
-
-  font-family: 'Archivo';
-  font-size: 1.8vw;
-  color: white;
-}
-
-.data1{
-            top: 25%;
-			margin: 0 auto;
-			position: relative;
-			font-family: 'Archivo';
-}
-.linktoskills{
-
-  text-decoration: none;
-  color: white;
-  font-size: 10px;
-
-}
-.projects{
-
-   background-image: url('images/projects.jpg');
-     
-font-family: 'Archivo';
-
-        color: white;
-    /* Full height */
-    height: 800PX; 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/navigation.css">
+	<link rel="stylesheet" href="css/skills_buttons.css">
+	<link rel="icon" href="images/icon.png">
+	<link href='https://fonts.googleapis.com/css?family=Catamaran' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Archivo' rel='stylesheet'>
 </head>
 <body>
 
 	<div class="topnav" id="myTopnav">
-  <div class="icon1">Mayank Kulkarni</div>
-  <a href="https://drive.google.com/open?id=1cjROHDBFdeygHJN8zM9i3w9ySjLsRd0O">Resume</a>
-  <a href="#myprojects">Projects</a>
-  <a href="#myskills">Skills</a>
-  <a href="#aboutme">About</a>
-  <a href="#home" class="active">Home</a>
+	  <div class="icon1">Mayank Kulkarni</div>
+	  <a href="https://drive.google.com/open?id=1cjROHDBFdeygHJN8zM9i3w9ySjLsRd0O">Resume</a>
+	  <a href="#myprojects">Projects</a>
+	  <a href="#myskills">Skills</a>
+	  <a href="#aboutme">About</a>
+	  <a href="#home" class="active">Home</a>
+  	<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
 
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-
-
-
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById('myTopnav');
+		  if (x.className === 'topnav') {
+		    x.className += ' responsive';
+		  } else {
+		    x.className = 'topnav';
+		  }
+		}
+	</script>
 
 
-<div class="parallax1" id="home">
-
+	<div class="parallax1" id="home">
 		<div class="data1">
-
-		<center><img class="profile" src="images/profile_pic.jpg" height="13%" width="13%" border-radius: 50%;></center>
-		<center><div class="heading">MAYANK KULKARNI</div></center>
-		<center>--------------------------------------------------------------</center>
-		<center>PROGRAMMER | DEVELOPER | OPEN SOURCE ENTHUSIAST</center>
-    <br><center>
-    <a href="https://www.facebook.com/mayankk245"><img src="images/fb.png" height="50px" width="50px"></a>
-    <a href="https://github.com/mayankk245"><img src="images/github.svg" height="50px" width="50px"></a>
-    <a href="https://www.instagram.com/mayankkulkarni/"><img src="images/insta.png" height="50px" width="50px"></a>
-    <a href="https://www.linkedin.com/in/mayank-kulkarni-19aa28151/"><img src="images/linked.png" height="50px" width="50px"></a>
-    <a href="mailto:mayankk245@gmail.com?subject=Let's Work Together&body=Hello,Mayank"><img src="images/email.png" height="50px" width="50px"></a></center>
-</div>
-</div>
-
-<div class="about" id="aboutme">
-
-
-<center><div class="heading"> ABOUT ME </div><hr></center>
-<div class="content">
-			Hello Everyone I am Mayank Kulkarni and currently pursuing
-			Bachelor of Engineering at Shri Vaishnav Institute of Technology and Science, Indore(M.P.) from Automobile branch(VI sem) .What I think is that someones ability to code and develope cannot be defined by his/her branch. And branch cannot be the barrier if you have knowledge to get what you want.I love to code and develop Android apps and other than that I love to learn about new technologies and work on them. 
+			<center><img class="profile" src="images/profile_pic.jpg" height="13%" width="13%" border-radius: 50%;></center>
+			<center><div class="heading">MAYANK KULKARNI</div></center>
+			<center>--------------------------------------------------------------</center>
+			<center>PROGRAMMER | DEVELOPER | OPEN SOURCE ENTHUSIAST</center>
+	    <br><center>
+	    <a href="https://www.facebook.com/mayankk245"><img src="images/fb.png" height="50px" width="50px"></a>
+	    <a href="https://github.com/mayankk245"><img src="images/github.svg" height="50px" width="50px"></a>
+	    <a href="https://www.instagram.com/mayankkulkarni/"><img src="images/insta.png" height="50px" width="50px"></a>
+	    <a href="https://www.linkedin.com/in/mayank-kulkarni-19aa28151/"><img src="images/linked.png" height="50px" width="50px"></a>
+	    <a href="mailto:mayankk245@gmail.com?subject=Let's Work Together&body=Hello,Mayank"><img src="images/email.png" height="50px" width="50px"></a></center>
+		</div>
 	</div>
 
 
-</div>
+	<div class="about" id="aboutme">
+		<center><div class="heading"> ABOUT ME </div><hr></center>
+		<div class="content">
+			Hello Everyone I am Mayank Kulkarni and currently pursuing
+			Bachelor of Engineering at Shri Vaishnav Institute of Technology and Science, Indore(M.P.) from Automobile branch(VI sem) .What I think is that someones ability to code and develope cannot be defined by his/her branch. And branch cannot be the barrier if you have knowledge to get what you want.I love to code and develop Android apps and other than that I love to learn about new technologies and work on them.
+		</div>
+	</div>
 
-<div class="skills" id="myskills">
-<center><div class="heading"> SKILLS </div></center>
-<hr>
-<br>
-  <center><font size="5px"><div class="skills_heading">ENVIRONMENT:</div></font></center>
-<center><div class="button gray"><div class="shine"></div><div class="skills_name">NetBeans</div></div>
-<div class="button blue"><div class="shine"></div><div class="skills_name">Android Studio</div></div>
-<br>
-<BR>
-<center><font size="5px"><div class="skills_heading">WEB DESIGNING & PROGRAMING SKILLS:</div></font></center>
-<div class="button green"><div class="shine"></div><div class="skills_name">HTML</div></div>
-<div class="button red"><div class="shine"></div><div class="skills_name">CSS</div></div>
-<div class="button purple"><div class="shine"></div><div class="skills_name">Java</div></div>
-<BR>
-<BR>
-<center><font size="5px"><div class="skills_heading">MOBILE DEVELOPMENT:</div></font></center>
-<div class="button gray"><div class="shine"></div><div class="skills_name">Android</div></div>
-<div class="button blue"><div class="shine"></div><div class="skills_name">Phonegap</div></div>
-<br>
-<br>
-<center><font size="5px"><div class="skills_heading">VERSION CONTROL:</div></font></center>
-<div class="button green"><div class="shine"></div><div class="skills_name">GitHub</div></div>
-
-</center>
-</div>
-
-
-<div class="projects" id="myprojects">
-  
+	<div class="skills" id="myskills">
+		<center><div class="heading"> SKILLS </div></center>
+		<hr>
+		<br>
+	  <center><font size="5px"><div class="skills_heading">ENVIRONMENT:</div></font></center>
+		<center>
+			<div class="button gray"><div class="shine"></div><div class="skills_name">NetBeans</div></div>
+			<div class="button blue"><div class="shine"></div><div class="skills_name">Android Studio</div></div>
+			<br>
+			<BR>
+			<center><font size="5px"><div class="skills_heading">WEB DESIGNING & PROGRAMING SKILLS:</div></font></center>
+			<div class="button green"><div class="shine"></div><div class="skills_name">HTML</div></div>
+			<div class="button red"><div class="shine"></div><div class="skills_name">CSS</div></div>
+			<div class="button purple"><div class="shine"></div><div class="skills_name">Java</div></div>
+			<BR>
+			<BR>
+			<center><font size="5px"><div class="skills_heading">MOBILE DEVELOPMENT:</div></font></center>
+			<div class="button gray"><div class="shine"></div><div class="skills_name">Android</div></div>
+			<div class="button blue"><div class="shine"></div><div class="skills_name">Phonegap</div></div>
+			<br>
+			<br>
+			<center><font size="5px"><div class="skills_heading">VERSION CONTROL:</div></font></center>
+			<div class="button green"><div class="shine"></div><div class="skills_name">GitHub</div></div>
+		</center>
+	</div>
 
 
-</div>
+	<div class="projects" id="myprojects">
 
-
+	</div>
 
 
 

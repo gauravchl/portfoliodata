@@ -1,0 +1,119 @@
+
+body, html {
+  height: 100%;
+      font:<size>px/em/cm;
+      font-family: 'Archivo';
+
+}
+
+.about{
+
+
+background-image: url('../images/android2.jpg');
+height: 800px;
+
+font-family: 'Archivo';
+
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.parallax1 {
+  /* The image used */
+  background-image: url('../images/my_image.jpg');
+
+    font-size: 2.2vw;
+      color: white;
+font-family: 'Archivo';
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skills {
+  /* The image used */
+  background-image: url('../images/skills2.png');
+
+font-family: 'Archivo';
+
+      color: white;
+  /* Full height */
+  height: 800PX;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile{
+
+
+border-radius: 50%;
+}
+.content{
+
+        font-size: 2.2vw;
+        color: white;
+font-family: 'Catamaran';
+  border: 2px solid white;
+  padding: 25px;
+  margin:25px;
+}
+
+.heading {
+font-family: 'Archivo';
+font-size: 4vw;
+color: white;
+
+}
+.skills_heading{
+
+font-family: 'Archivo';
+font-size: 2vw;
+color: white;
+}
+.skills_name{
+
+font-family: 'Archivo';
+font-size: 1.8vw;
+color: white;
+}
+
+.data1{
+          top: 25%;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Archivo';
+}
+.linktoskills{
+
+text-decoration: none;
+color: white;
+font-size: 10px;
+
+}
+.projects{
+
+ background-image: url('../images/projects.jpg');
+
+font-family: 'Archivo';
+
+      color: white;
+  /* Full height */
+  height: 800PX;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
